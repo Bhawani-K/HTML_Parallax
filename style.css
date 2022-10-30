@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+body{
+    background-color: #100222;
+    font-family: 'Roboto Mono', monospace;
+    padding: 0;
+    margin: 0;
+}
+ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0; 
+    overflow: hidden;
+}
+li{
+    float:left;
+}
+li a{
+    display: block;
+    color: #fff;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+}
+li a:hover{
+    background-color: #f94b4b;
+    color: #fff;
+}
+.righty{
+    float: right;
+}
+.even{
+    height: 300px;
+    background-color: #09b9cd;
+    text-align: center;
+}
+.odd{
+    height: 300px;
+    background-color: #878787
+}
+.parallax{
+    min-height: 720px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.5;
+}
+.center{
+    width: 650px;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 20px;
+    color: #fff;
+    padding-top: 100px;
+    font-weight: bold;
+}
+.one{
+    background-image: url('./images/bg.jpg');
+}
+.two{
+    background-image: url('./images/bg_3.jpg');
+}
+.three{
+    background-image: url('./images/bg_4.jpg');
+}
+.four{
+    background-image: url('./images/bg-night.jpg');
+}
+.four .center{
+    color: #fff;
+}
+.one button{
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 15px;
+    font-size: 20px;
+    margin: auto;
+    margin-left: 700px;
+    margin-top: 50px;
+    padding: 10px 10px;
+    background-color: transparent;
+    border-radius: 10px;
+    font-weight: bold;
+    color: #fff;
+    border-color: #03ffc4;
+}
